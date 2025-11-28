@@ -52,7 +52,7 @@ class WaitAndNotify{
 
         Thread.sleep(2000);
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println(" ");
         synchronized (this){
             scanner.nextLine();
             notify();
