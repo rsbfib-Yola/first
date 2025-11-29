@@ -33,7 +33,7 @@ public class Main {
 
         thread1.start();
         thread2.start();
-        System.out.println("Hello");
+        System.out.println("Hello world");
         thread1.join();
         thread2.join();
     }
